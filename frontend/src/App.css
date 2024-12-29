@@ -1,0 +1,119 @@
+#root > .container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.page-title {
+  display: block !important;
+  text-align: center;
+  font-size: 2rem;
+  margin: 10px 0 !important;
+}
+.form-container {
+  width: 300px;
+  margin: auto;
+}
+.ui.teal.button:focus,
+.ui.teal.buttons .button:focus {
+  background-color: #00b5ad;
+}
+
+.ui.menu {
+  margin: 3rem 0;
+}
+.ui.card .meta,
+.ui.cards > .card .meta {
+  margin: 10px 0;
+}
+
+@media (max-width: 500px) {
+  .ui.divided.horizontal.list {
+    width: 90% !important;
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 991px) {
+  .ui.doubling.grid {
+    width: 400px;
+    margin: auto !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 2000px) {
+  .ui.grid {
+    justify-content: center;
+  }
+  .ui.doubling.grid {
+    width: auto;
+  }
+}
+
+body {
+  background: azure;
+}
+.dark {
+  background: rgb(43, 43, 67);
+  color: #fff !important;
+}
+.ui.form .field > label {
+  margin: 1rem 1rem 0 0;
+  font-size: 1rem !important;
+  display: inline !important;
+}
+
+.dark .ui.form .field > label {
+  color: #fff!important;
+}
+.dark .ui.form .field > label.choose-file-btn {
+  color: #000!important;
+}
+
+.dark .ui.fluid.card {
+  background: #effbff;
+}
+.dark .ui.basic.teal.label,
+.dark .ui.basic.blue.label {
+  background: #effbff !important;
+}
+.content > p,
+.ui.modal > .content {
+  color: rgba(0, 0, 0, 0.85);
+}
+.ui.vertical.segment {
+  margin-top: 2.5rem;
+}
+
+.ui.basic.inverted.button,
+.ui.basic.inverted.buttons .button,
+.ui.basic.inverted.button:hover,
+.ui.basic.inverted.buttons .button:hover,
+.ui.basic.inverted.button:active,
+.ui.basic.inverted.buttons .button:active,
+.ui.basic.inverted.button:visited,
+.ui.basic.inverted.buttons .button:visited,
+.ui.basic.inverted.button:focus,
+.ui.basic.inverted.buttons .button:focus {
+  border: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  width: auto;
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+.ui.form {
+  padding-bottom: 1rem;
+}
+.ui.small.basic.button {
+  padding: 0;
+  margin: 0;
+  height: fit-content;
+}
+.form-field-file {
+  place-content: center;
+  display: flex;
+}
+.form-selected-file {
+  display: flex !important;
+  width: fit-content;
+}
+
